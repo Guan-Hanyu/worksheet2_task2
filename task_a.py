@@ -12,6 +12,6 @@ day = input("Please enter a day of week: ").lower().strip().capitalize()
 
 if day in day_of_week :
     day_number = day_of_week[day]
-    print(f"{day} is {day_number}")
+    print(f"{day} is {day_number}\n")
 else :
     print("Please enter a valid day")
