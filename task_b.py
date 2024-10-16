@@ -1,5 +1,5 @@
 try :
-    grade = float(input("Please enter a numerical grade (0-100) : "))
+    grade = float(input("Please enter a number (0-100) : "))
 
     match grade :
         case _ if 80 <= grade <= 100:
