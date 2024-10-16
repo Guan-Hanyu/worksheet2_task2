@@ -13,7 +13,7 @@ try :
         case _ if 0 <= grade < 40:
             print("Your grade is: F ")
         case _ :
-            print("Grades must be between 0 and 100")
+            print("Grades must be between 0 and 100.")
 
 except :
     print("Please enter a number")
